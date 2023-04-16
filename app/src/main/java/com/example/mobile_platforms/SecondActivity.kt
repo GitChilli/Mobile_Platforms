@@ -5,14 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class MainActivity : AppCompatActivity() {
+class SecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_second)
     }
-
-    fun onClickGoSecondActivity (view : View) {
-        val intent = Intent(this, SecondActivity::class.java)
+    fun onClickGoMain (view : View) {
+        val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 
@@ -20,5 +19,4 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, ThirdActivity::class.java)
         startActivity(intent)
     }
-
 }
