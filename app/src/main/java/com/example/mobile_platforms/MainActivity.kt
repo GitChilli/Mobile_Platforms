@@ -20,5 +20,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, ThirdActivity::class.java)
         startActivity(intent)
     }
+    fun onClickGoMenuActivity (view : View) {
+        val intent = Intent(this, MenuActivity::class.java)
+        startActivity(intent)
+    }
 
 }
