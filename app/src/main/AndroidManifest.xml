@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Mobile_Platforms"
         tools:targetApi="31">
         <activity
+            android:name=".GroupsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeachersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".ThirdActivity"
             android:exported="false" />
         <activity

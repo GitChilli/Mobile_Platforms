@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Mobile_Platforms</string>
+    <string name="TeacherAct_name">Список викладачів</string>
+    <string name="GroupAct_name">Список груп</string>
 </resources>
